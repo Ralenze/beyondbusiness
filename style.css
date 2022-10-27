@@ -1,9 +1,62 @@
 :root{
-    --main-bg-color: blue;
-    --main-header-color: white;
+    --main-bg-color: #0F044C;
+    --transparent-main--bg-color: #0f044c84;
+    --secondary-color: #141E61;
+    --transparent-secondary-color: #141e61b0;
+    --main-header-color: #787A91;
+    --text-color: #EEEEEE; 
+    /* dunno how organize use what colors for what... reorganize if want 
+       or we can wait, but...
+       
+       also might need switch to rgba to get transparent values...? unsure
+    */
+
+    --font: ;
+    /* are we using more than one font...? */
+}
+html,
+body,
+div {
+  /* did this cus whitespace at top of page... i dunno if will cause issues later */
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 h1 {
   color: var(--main-header-color);
+}
 
+#titleArea{
+  background: linear-gradient(to right, var(--transparent-main--bg-color), var(--transparent-secondary-color)), url("images/titleImage.jpg"); 
+  background-clip: border-box ;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+.centered{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+#navBar{
+  position: relative;
+  bottom: 0%;
+  align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  color: var(--text-color);
+  height: 5%;
+}
+
+li{
+  float: left;
+  padding: 10px;
 }
