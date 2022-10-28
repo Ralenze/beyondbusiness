@@ -23,9 +23,11 @@ body,
 div {
   /* did this cus whitespace at top of page... i dunno if will cause issues later */
   overflow: hidden;
+
   height: 100%;
   width: 100%;
   margin: 0;
+
 }
 
 #title {
@@ -33,7 +35,8 @@ div {
   font-size: 10vh;
   position: absolute;
   top: 65%;
-  right: 42%; 
+ 
+  
 }
 
 #titleArea{
@@ -85,11 +88,29 @@ ul{
 li{
   float: left;
   padding: 20px;
-  font-size: 1.2vw;
 }
 
-.fa-brands{
+fa-brands{
   float: right;
+}
+.type {
+  display:inline-block;
+  vertical-align: bottom;
+}
+
+.type > span {
+  color: #14f3db;
+  display:grid;
+  overflow: hidden;
+  height:1.2em;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+  100% {left: 100%;}
+
 }
 
 @keyframes fadeOut{
