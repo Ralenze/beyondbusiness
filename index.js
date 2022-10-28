@@ -16,5 +16,5 @@ function changeImg(){
 
 setInterval(changeImg, 10000);
 
-// probably stop process after they scroll off. less slow? 
+// probably stop process after they scroll off. less slow maybe? 
 

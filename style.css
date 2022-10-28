@@ -85,9 +85,10 @@ ul{
 li{
   float: left;
   padding: 20px;
+  font-size: 1.2vw;
 }
 
-fa-brands{
+.fa-brands{
   float: right;
 }
 
