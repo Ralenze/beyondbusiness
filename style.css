@@ -33,16 +33,18 @@ h1 {
 }
 
 .inactive{
+  z-index: 1;
   animation-name: fadeOut;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
 
+
 .bgImg{
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -5;
+  z-index: -3;
 }
 
 .centered{
@@ -75,7 +77,6 @@ li{
   }
   to{
     opacity: 0;
-    display: none;
   }
 
 }
