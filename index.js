@@ -1,15 +1,23 @@
-document.getElementById("title").innerHTML = "hi"
 
-let index = 3; 
-let images = document.getElementsByClassName("bgImage")
+let index = 0; 
+let images = document.getElementsByClassName("bgImg")
+
 
 function changeImg(){
-    images[i].class = "bgImage inactive";
+    document.getElementById("title").innerHTML =  index;
 
-    if(i == images.length){
-        i = 0
+    //error on this line i
+    images[index].className = "bgImage inactive";
+
+    if(index == images.length){
+        index = 0;
+    }else{
+        index++;
     }
-    images[i].class = "bgImage";
+
+    images[index].className = "bgImage";
+    images[index].style.display = "block";
+
 }
 
 setInterval(changeImg, 5000);
