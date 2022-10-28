@@ -1,14 +1,18 @@
+
 :root{
     --main-bg-color: #0F044C;
-    --transparent-main--bg-color: #0f044c84;
+    --transparent-main--bg-color: #0f044cc7;
     --secondary-color: #141E61;
-    --transparent-secondary-color: #141e61b0;
+    --transparent-secondary-color: #141e61cf;
     --main-header-color: #787A91;
     --text-color: #EEEEEE; 
     /* dunno how organize use what colors for what... reorganize if want 
        or we can wait, but...
        
        also might need switch to rgba to get transparent values...? unsure
+
+       WOULD BE HAPPY FOR U TO FIGURE THIS OUT SO I DONT HAVE TO :D
+       like... idk how many colors need and how organize them :/
     */
 
     --font: ;
@@ -24,8 +28,12 @@ div {
   margin: 0;
 }
 
-h1 {
+#title {
   color: var(--main-header-color);
+  font-size: 10vh;
+  position: absolute;
+  top: 65%;
+  right: 42%; 
 }
 
 #titleArea{
@@ -43,6 +51,7 @@ h1 {
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
+
 .off{
   visibility: hidden;
 }
