@@ -84,7 +84,11 @@ ul{
 
 li{
   float: left;
-  padding: 10px;
+  padding: 20px;
+}
+
+fa-brands{
+  float: right;
 }
 
 @keyframes fadeOut{
