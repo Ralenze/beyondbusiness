@@ -11,3 +11,8 @@ function changeImg(){
 }
 
 setInterval(5000, changeImg);
+
+
+// btw this doesn't work.... 
+// and if it did more stuff add probably... 
+// need check if js is even running first.
