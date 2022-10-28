@@ -33,12 +33,19 @@ h1 {
 }
 
 .inactive{
-  z-index: 1;
   animation-name: fadeOut;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
+.active{
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+.off{
+  visibility: hidden;
+}
 
 .bgImg{
   position: absolute;
@@ -77,6 +84,16 @@ li{
   }
   to{
     opacity: 0;
+  }
+
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
   }
 
 }
