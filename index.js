@@ -1,4 +1,6 @@
-let index = 0; 
+document.getElementById("title").innerHTML = "hi"
+
+let index = 3; 
 let images = document.getElementsByClassName("bgImage")
 
 function changeImg(){
@@ -10,7 +12,7 @@ function changeImg(){
     images[i].class = "bgImage";
 }
 
-setInterval(5000, changeImg);
+setInterval(changeImg, 5000);
 
 
 // btw this doesn't work.... 
