@@ -1,10 +1,10 @@
 
 :root{
     --main-bg-color: #0F044C;
-    --transparent-main--bg-color: #0f044c94;
+    --transparent-main--bg-color: #0f044cb3;
     --secondary-color: #141E61;
     --transparent-secondary-color: #141e6184;
-    --main-header-color: #787A91;
+    --main-header-color: #636579;
     --text-color: #EEEEEE; 
     /* dunno how organize use what colors for what... reorganize if want 
        or we can wait, but...
@@ -19,15 +19,18 @@
     /* are we using more than one font...? */
 }
 html,
-body,
-div {
+body{
   /* did this cus whitespace at top of page... i dunno if will cause issues later */
-  overflow: hidden;
-
   height: 100%;
   width: 100%;
   margin: 0;
 
+}
+h2{
+  font-size: 5em;
+}
+.sectionDiv{
+  height: 100%;
 }
 
 #title {
@@ -109,6 +112,17 @@ li{
   animation-name: slide;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+#aboutDiv{
+  z-index: -10;
+  background-color: var(--main-bg-color);
+  color: var(--text-color)
+}
+
+.innerDiv{
+  margin: 0vh 45vw 0vh 10vw;
+  padding-top: 30vh;
 }
 
 @keyframes slide {
