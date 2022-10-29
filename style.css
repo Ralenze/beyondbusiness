@@ -34,7 +34,8 @@ div {
   color: var(--main-header-color);
   font-size: 10vh;
   position: absolute;
-  top: 65%;
+  left: 5%;
+  top:  70%;
  
   
 }
@@ -75,7 +76,7 @@ div {
 
 #navBarDiv{
   position: absolute;
-  bottom: 0;
+  top: 0;
   height: initial;
 }
 
@@ -86,13 +87,15 @@ ul{
 }
 
 li{
-  float: left;
-  padding: 20px;
+  display: inline;
+  padding: 1vh 2vh;
 }
 
-fa-brands{
+.fa-brands{
   float: right;
+  padding: 3vh;
 }
+
 .type {
   display:inline-block;
   vertical-align: bottom;
