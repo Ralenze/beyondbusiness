@@ -1,12 +1,11 @@
-
-:root{
-    --main-bg-color: #0F044C;
-    --transparent-main--bg-color: #0F044c90;
-    --secondary-color: #141E61;
-    --transparent-secondary-color: #141e6184;
-    --main-header-color: #636579;
-    --text-color: #EEEEEE; 
-    /* dunno how organize use what colors for what... reorganize if want 
+:root {
+  --main-bg-color: #0F044C;
+  --transparent-main--bg-color: #0F044c90;
+  --secondary-color: #141E61;
+  --transparent-secondary-color: #141e6184;
+  --main-header-color: #636579;
+  --text-color: #EEEEEE;
+  /* dunno how organize use what colors for what... reorganize if want 
        or we can wait, but...
        
        also might need switch to rgba to get transparent values...? unsure
@@ -15,21 +14,24 @@
        like... idk how many colors need and how organize them :/
     */
 
-    --font: ;
-    /* are we using more than one font...? */
+  --font: ;
+  /* are we using more than one font...? */
 }
+
 html,
-body{
+body {
   /* did this cus whitespace at top of page... i dunno if will cause issues later */
   height: 100%;
   width: 100%;
   margin: 0;
 
 }
-h2{
+
+h2 {
   font-size: 5em;
 }
-.sectionDiv{
+
+.sectionDiv {
   height: 100%;
   width: 100%;
 }
@@ -39,47 +41,47 @@ h2{
   font-size: 10vh;
   position: absolute;
   left: 5%;
-  top:  70%;
- 
-  
+  top: 70%;
+
+
 }
 
-#titleArea{
+#titleArea {
   background: linear-gradient(-2deg, var(--main-bg-color), var(--transparent-main--bg-color) 30%);
 
 }
 
-.inactive{
+.inactive {
   animation-name: fadeOut;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 
-.active{
+.active {
   animation-name: fadeIn;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
 
-.off{
+.off {
   visibility: hidden;
 }
 
-.bgImg{
+.bgImg {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: -3;
 }
 
-.centered{
+.centered {
   position: absolute;
   top: 45%;
   width: 100%;
   text-align: center;
 }
 
-#navBarDiv{
+#navBarDiv {
   position: fixed;
   top: 0;
   height: initial;
@@ -89,51 +91,51 @@ h2{
 
 }
 
-ul{
+ul {
   list-style-type: none;
   color: var(--text-color);
   height: 5%;
 }
 
-li{
+li {
   display: inline;
   padding: 1vh 2vh;
 }
 
-.fa-brands{
+.fa-brands {
   float: right;
   padding: 3vh;
 }
 
 .type {
-  display:inline-block;
+  display: inline-block;
   vertical-align: bottom;
 }
 
-.type > span {
+.type>span {
   color: #14f3db;
-  display:grid;
+  display: grid;
   overflow: hidden;
-  height:1.2em;
+  height: 1.2em;
   animation-name: slide;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
-#aboutDiv{
+#aboutDiv {
   z-index: -10;
   background-color: var(--main-bg-color);
   color: var(--text-color)
 }
 
-.innerDiv{
+.innerDiv {
   margin: 0vh 45vw 0vh 10vw;
   padding-top: 30vh;
 }
 
 a {
   text-decoration: underline 0.15em rgba(157, 77, 77, 0);
-  transition: text-decoration-color 500ms,font-size 500ms;
+  transition: text-decoration-color 500ms, font-size 500ms;
 }
 
 a:hover {
@@ -142,25 +144,29 @@ a:hover {
 }
 
 @keyframes slide {
-  100% {left: 100%;}
+  100% {
+    left: 100%;
+  }
 
 }
 
-@keyframes fadeOut{
-  from{
+@keyframes fadeOut {
+  from {
     opacity: 1
   }
-  to{
+
+  to {
     opacity: 0;
   }
 
 }
 
-@keyframes fadeIn{
-  from{
+@keyframes fadeIn {
+  from {
     opacity: 0;
   }
-  to{
+
+  to {
     opacity: 1;
   }
 

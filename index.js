@@ -2,15 +2,15 @@
 let images = document.getElementsByClassName("bgImg")
 let index = 0;
 
-function changeImg(){
-    images[index].className = "bgImg inactive";
+function changeImg() {
+  images[index].className = "bgImg inactive";
 
-    index++;
-    if(index == images.length){
-        index = 0;
-    }
+  index++;
+  if (index == images.length) {
+    index = 0;
+  }
 
-    images[index].className = "bgImg active";
+  images[index].className = "bgImg active";
 
 }
 
@@ -22,9 +22,7 @@ setInterval(changeImg, 10000);
 
 var prevScrollpos = window.scrollY;
 
-
-
-window.onscroll = function() {
+window.onscroll = function () {
   var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navBarDiv").style.top = "0";
