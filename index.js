@@ -29,7 +29,7 @@ window.onscroll = function() {
   if (prevScrollpos > currentScrollPos) {
     document.getElementById("navBarDiv").style.top = "0";
   } else {
-    document.getElementById("navBarDiv").style.top = "-50px";
+    document.getElementById("navBarDiv").style.top = "-20vh";
   }
   prevScrollpos = currentScrollPos;
 }

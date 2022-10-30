@@ -83,6 +83,9 @@ h2{
   top: 0;
   height: initial;
   width: 100%;
+  border-style: solid;
+  border-color: #0000001d;
+
 }
 
 ul{
@@ -125,6 +128,16 @@ li{
 .innerDiv{
   margin: 0vh 45vw 0vh 10vw;
   padding-top: 30vh;
+}
+
+a {
+  text-decoration: underline 0.15em rgba(157, 77, 77, 0);
+  transition: text-decoration-color 800ms,font-size 800ms;
+}
+
+a:hover {
+  text-decoration-color: red;
+  font-size: 2.5vh;
 }
 
 @keyframes slide {
