@@ -121,7 +121,8 @@ li {
 
 #aboutDiv {
   background-color: var(--main-bg-color);
-  color: var(--text-color)
+  color: var(--text-color);
+  padding-bottom: 100vh;
 }
 
 .innerDiv{
