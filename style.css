@@ -32,6 +32,11 @@ h2 {
   font-size: 5em;
 }
 
+.sectionDiv {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+}
+
 
 #title {
   color: var(--main-header-color);
@@ -119,11 +124,7 @@ li {
   animation-fill-mode: forwards;
 }
 
-#aboutDiv {
-  background-color: var(--main-bg-color);
-  color: var(--text-color);
-  padding-bottom: 100vh;
-}
+
 
 .innerDiv{
   position: relative;
