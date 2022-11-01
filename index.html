@@ -5,129 +5,181 @@
 <script src="https://kit.fontawesome.com/23c443f0b3.js" crossorigin="anonymous"></script>
 <!-- font awesome. use for ig icons and stuff ig?-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!--jquery i think... might not work.... istg doesn't-->
-
 <body>
-  <!-- naming convention not great.... switch stuff for me- thanks :D -->
-  <div id="titleArea" class="sectionDiv">
-    <!-- so... potentially laoding everything at once and just changing opacity
-       to get new one instead of unloading and reloading an image maybe faster...? 
-       also, i was having issues doing background-image manipulation-
+  <div class="wrapper">
+    <!-- naming convention not great.... switch stuff for me- thanks :D -->
+    <div id="titleArea" class="sectionDiv">
+      <!-- so... potentially laoding everything at once and just changing opacity
+        to get new one instead of unloading and reloading an image maybe faster...? 
+        also, i was having issues doing background-image manipulation-
 
-       reason have off thing is that i need images to not start in existence or they'll be in front... 
-    -->
-    <img class="bgImg  active " src="images/titleImg0.jpg">
-    <img class="bgImg  off" src="images/titleImg1.jpg">
-    <img class="bgImg  off" src="images/titleImg2.png">
-    <!--note this is a png... when get new image make sure change-->
-    <img class="bgImg  off" src="images/titleImg3.jpg">
+        reason have closed thing is that i need images to not start in existence or they'll be in front... 
+      -->
+      <img class="bgImg  active " src="images/titleImg0.jpg">
+      <img class="bgImg  closed" src="images/titleImg1.jpg">
+      <img class="bgImg  closed" src="images/titleImg2.png">
+      <!--note this is a png... when get new image make sure change-->
+      <img class="bgImg  closed" src="images/titleImg3.jpg">
 
-    <h1 id="title">Unleash your <span class="type">
+      <h1 id="title">Unleash your <span class="type">
 
-        <span>
-          <span>Talent</span>
+          <span>
+            <span>Talent</span>
 
-        </span>
-      </span></h1>
+          </span>
+        </span></h1>
 
-    <!-- also i dunno where put navbar thing... and how want style it...-->
+      <!-- also i dunno where put navbar thing... and how want style it...-->
 
-    <div id="navBarDiv">
-      <ul id="navBar">
-        <li> <a><img height=30px src="images/logo.png" /> </a></li>
-        <li> <a  href="index.html#aboutDiv" > About </a> </li>
-        <li> <a  > Why Join </a> </li>
-        <!-- mmm about and why join might be redundant. also do we have any stats that good...-->
-        <li> <a  href="index.html#schedulingDiv"> Scheduling </a> </li>
-        <li> <a  href="index.html#faqDiv"> FAQ </a> </li>
-        <li> <a  href="index.html#teamDiv"> The Team </a> </li>
+      <div id="navBarDiv">
+        <ul id="navBar">
+          <li> <a><img height=30px src="images/logo.png" /> </a></li>
+          <li> <a href="index.html#aboutDiv"> About </a> </li>
+          <li> <a> Why Join </a> </li>
+          <!-- mmm about and why join might be redundant. also do we have any stats that good...-->
+          <li> <a href="index.html#schedulingDiv"> Scheduling </a> </li>
+          <li> <a href="index.html#faqDiv"> FAQ </a> </li>
+          <li> <a href="index.html#teamDiv"> The Team </a> </li>
 
-        <li> <a> <i class="fa-brands fa-instagram fa-1x"></i> </a> </li>
-        <li> <a> <i class="fa-brands fa-github    fa-1x"></i> </a> </li>
-        <li> <a> <i class="fa-brands fa-discord   fa-1x"></i> </a> </li>
+          <li> <a> <i class="fa-brands fa-instagram fa-1x"></i> </a> </li>
+          <li> <a> <i class="fa-brands fa-github    fa-1x"></i> </a> </li>
+          <li> <a> <i class="fa-brands fa-discord   fa-1x"></i> </a> </li>
 
-        <!--i wanted to move logos to right side, but dunno how to- :D -->
-      </ul>
+          <!--i wanted to move logos to right side, but dunno how to- :D -->
+        </ul>
+      </div>
+    </div>
+    <!-- end of title area div---
+    THERES WHITESPACE BETWEEN DIVS AND IDK WHY MAN....  
+    --->
+    <div id=aboutDiv class="sectionDiv">
+      <div class="innerDiv">
+        <!--... idk know man-->
+        <h2 id="aboutHeader" class="sectionHeader ">What is thing<br />/put images here</h2>
+
+        <p class="aboutText sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt
+          ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui closedicia deserunt mollit anim id
+          est
+          laborum."</p>
+        <p class="aboutText sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt
+          ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui closedicia deserunt mollit anim id
+          est
+          laborum."</p>
+        <p class="aboutText sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt
+          ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui closedicia deserunt mollit anim id
+          est
+          laborum."</p>
+
+      </div>
+    </div>
+    <div id="schedulingDiv" class="sectionDiv">
+
+    </div>
+    <div id="faqDiv" class="sectionDiv">
+      <div class = "innerDiv">
+        <h2 id="faqHeader" class="sectionHeader centered">Frequently asked Questions</h2>
+
+        <div id="q1Section" class="questionSection">
+          <h3 id="q1Header" class="questionHeader">
+            <i class="fa-solid fa-plus"></i>
+            What is your favorite food
+          </h3>
+          <p id="answer1" class="answer closed">Great Question! if we'd had to choose, it would be rice with soy sauce
+            and a fried egg. some katsuobushi would be nice too.</p>
+        </div>
+
+        <div id="q2Section" class="questionSection">
+          <h3 id="q2Header" class="questionHeader">
+            <i class="fa-solid fa-plus"></i>
+            What is your favorite food
+          </h3>
+          <p id="answer2" class="answer closed">Great Question! if we'd had to choose, it would be rice with soy sauce
+            and a fried egg. some katsuobushi would be nice too.</p>
+        </div>
+
+        <div id="q3Section" class="questionSection">
+          <h3 id="q3Header" class="questionHeader">
+            <i class="fa-solid fa-plus"></i>
+            What is your favorite food
+          </h3>
+          <p id="answer3" class="answer closed">Great Question! if we'd had to choose, it would be rice with soy sauce
+            and a fried egg. some katsuobushi would be nice too.</p>
+        </div>
+
+        <div id="q4Section" class="questionSection">
+          <h3 id="q4Header" class="questionHeader">
+            <i class="fa-solid fa-plus"></i>
+            What is your favorite food
+          </h3>
+          <p id="answer4" class="answer closed">Great Question! if we'd had to choose, it would be rice with soy sauce
+            and a fried egg. some katsuobushi would be nice too.</p>
+        </div>
+
+        <div id="q5Section" class="questionSection">
+          <h3 id="q5Header" class="questionHeader">
+            <i class="fa-solid fa-plus"></i>
+            What is your favorite food
+          </h3>
+          <p id="answer5" class="answer closed">Great Question! if we'd had to choose, it would be rice with soy sauce
+            and a fried egg. some katsuobushi would be nice too.</p>
+        </div>
+      </div>
+    </div>
+    <div id="teamDiv" class="sectionDiv">
+      <div id="person1" class="personDiv">
+        <img src="" id="person1Img" class="personImg" alt="picture of person1">
+        <h3 id="person1Header" class="personHeader"> Jason Qiu, the benevolent one, the great and terrible, the
+          enlightened, he with more titles than there are stars, the yasqueenslayestqueen, the morningstar, the wise,
+          the patient, the cute guy, the destroyer of worlds, the eater of noodles, the eater of rice, the eater of
+          tiramisu, the kinda craving food like anything... hoenstly i could go for some fruit. fruit is dope. anways...
+          , the gifter of fire, the bringer of life, the forsaken one, the oldest, the star dragon thing, the enslish
+          speaking thing, the guy running out of things to say...</h3>
+        <p id="person1Text" class="personText">A BENEVOLENT GOD TO ALLOW YOU MORTALS A GLIMPSE OF HIS FORM. KNOW THAT
+          YOU'VE BEEN GRACED WITH PRESENCE YOU DID NOT DESERVE AND BE GRATEFUL PEONS</p>
+      </div>
+
+      <div id="person2" class="personDiv">
+        <img src="" id="person2Img" class="personImg" alt="picture of person2">
+        <h3 id="person2Header" class="personHeader"> PERSON</h3>
+        <p id="person2Text" class="personText">some info about this person</p>
+      </div>
+
+      <div id="person3" class="personDiv">
+        <img src="" id="person3Img" class="personImg" alt="picture of person3">
+        <h3 id="person3Header" class="personHeader"> PERSON</h3>
+        <p id="person3Text" class="personText">some info about this person</p>
+      </div>
+
+      <div id="person4" class="personDiv">
+        <img src="" id="person4Img" class="personImg" alt="picture of person4">
+        <h3 id="person4Header" class="personHeader"> PERSON</h3>
+        <p id="person4Text" class="personText">some info about this person</p>
+      </div>
+
+      <div id="person5" class="personDiv">
+        <img src="" id="person1Img" class="personImg" alt="picture of person1">
+        <h3 id="person1Header" class="personHeader"> PERSON</h3>
+        <p id="person1Text" class="personText">some info about this person</p>
+      </div>
+
+      <div id="person6" class="personDiv">
+
+      </div>
+
     </div>
   </div>
-  <!-- end of title area div---
-  THERES WHITESPACE BETWEEN DIVS AND IDK WHY MAN....  
-  --->
-  <div id=aboutDiv class="sectionDiv">
-    <div class="innerDiv">
-      <!--... idk know man-->
-      <h2 id="aboutHeader" class="sectionHeader ">What is thing<br/>/put images here</h2>
-
-      <p class="sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-      <p class="sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-      <p class="sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-      <p class="sectionText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-        ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum."</p>
-    </div>
-  </div>
-  <div id = "schedulingDiv" class="sectionDiv">
-
-  </div>
-  <div id = "faqDiv" class="sectionDiv">
-
-  </div>
-  <div id = "teamDiv" class="sectionDiv">
-    <div id = "person1" class = "personDiv">
-      <img src ="" id = "person1Img" class = "personImg" alt ="picture of person1">
-      <h3 id = "person1Header" class = "personHeader"> Jason Qiu, the benevolent one, the great and terrible, the enlightened, he with more titles than there are stars, the yasqueenslayestqueen, the morningstar, the wise, the patient, the cute guy, the destroyer of worlds, the eater of noodles, the eater of rice, the eater of tiramisu, the kinda craving food like anything... hoenstly i could go for some fruit. fruit is dope. anways... , the gifter of fire, the bringer of life, the forsaken one, the oldest, the star dragon thing, the enslish speaking thing, the guy running out of things to say...</h3>
-      <p id = "person1Text" class = "personText">A BENEVOLENT GOD TO ALLOW YOU MORTALS A GLIMPSE OF HIS FORM. KNOW THAT YOU'VE BEEN GRACED WITH PRESENCE YOU DID NOT DESERVE AND BE GRATEFUL PEONS</p>
-    </div>
-   
-    <div id = "person2" class = "personDiv">
-      <img src ="" id = "person2Img" class = "personImg" alt ="picture of person2">
-      <h3 id = "person2Header" class = "personHeader"> PERSON</h3>
-      <p id = "person2Text" class = "personText">some info about this person</p>
-    </div>
-   
-    <div id = "person3" class = "personDiv">
-      <img src ="" id = "person3Img" class = "personImg" alt ="picture of person3">
-      <h3 id = "person3Header" class = "personHeader"> PERSON</h3>
-      <p id = "person3Text" class = "personText">some info about this person</p>
-    </div>
-    
-    <div id = "person4" class = "personDiv">
-      <img src ="" id = "person4Img" class = "personImg" alt ="picture of person4">
-      <h3 id = "person4Header" class = "personHeader"> PERSON</h3>
-      <p id = "person4Text" class = "personText">some info about this person</p>
-    </div>
-    
-    <div id = "person5" class = "personDiv">
-      <img src ="" id = "person1Img" class = "personImg" alt ="picture of person1">
-      <h3 id = "person1Header" class = "personHeader"> PERSON</h3>
-      <p id = "person1Text" class = "personText">some info about this person</p>
-    </div>
-    
-    <div id = "person6" class = "personDiv">
-
-    </div>
-    
-  </div>
-
 
   <script src="changingBg.js"></script>
   <script src="SectionHeaderStickyThing.js"></script>

@@ -19,22 +19,33 @@
 }
 
 html,
-body,
-div {
+body {
   /* did this cus whitespace at top of page... i dunno if will cause issues later */
-  height: 100vh;
   width: 100%;
+  height: 100%;
   margin: 0;
   overflow-wrap: normal;
 }
 
-h2 {
-  font-size: 5em;
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sectionHeader{
+  font-size: 3em;
+  margin: 2vh;
+}
+
+#titleArea {
+  height: 100vh;
 }
 
 .sectionDiv {
   background-color: var(--main-bg-color);
   color: var(--text-color);
+  height: 100%;
+  padding-bottom: 10vh;
 }
 
 
@@ -44,13 +55,10 @@ h2 {
   position: absolute;
   left: 5%;
   top: 70%;
-
-
 }
 
 #titleArea {
   background: linear-gradient(-2deg, var(--main-bg-color), var(--transparent-main--bg-color) 30%);
-
 }
 
 .inactive {
@@ -69,6 +77,10 @@ h2 {
   visibility: hidden;
 }
 
+.closed {
+  display: none;
+}
+
 .bgImg {
   position: absolute;
   width: 100%;
@@ -77,9 +89,6 @@ h2 {
 }
 
 .centered {
-  position: absolute;
-  top: 45%;
-  width: 100%;
   text-align: center;
 }
 
@@ -102,6 +111,10 @@ ul {
 li {
   display: inline;
   padding: 1vh 2vh;
+}
+
+a {
+  color: var(--text-color)
 }
 
 .fa-brands {
@@ -127,29 +140,25 @@ li {
 
 
 
-.innerDiv{
+.innerDiv {
   position: relative;
   padding-top: 35vh;
 }
 
 
-/* 
-need section header to be absolute... 
-then change sectionText to take up full line, 
-but also only be in left side.
-*/
-.sectionHeader{
+#aboutHeader{
   position: absolute;
   right: 10vw;
   top: 35vh;
   border-left: 1vh solid rgb(195, 255, 0);
   padding-left: 3vh;
 }
-.activeHeader{
+
+#aboutHeader.activeHeader {
   position: fixed;
 }
 
-.sectionText{
+.sectionText {
   padding: 7vh 60vw 50vh 5vw;
 }
 
