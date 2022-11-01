@@ -107,6 +107,7 @@ li {
 .fa-brands {
   float: right;
   padding: 3vh;
+  z-index: 2;
 }
 
 .type {
