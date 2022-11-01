@@ -18,8 +18,6 @@ setInterval(changeImg, 10000);
 
 // probably stop process after they scroll off. less slow maybe? 
 
-
-
 var prevScrollpos = window.scrollY;
 
 window.onscroll = function () {

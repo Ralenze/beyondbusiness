@@ -19,22 +19,18 @@
 }
 
 html,
-body {
+body,
+div {
   /* did this cus whitespace at top of page... i dunno if will cause issues later */
   height: 100%;
   width: 100%;
   margin: 0;
-
 }
 
 h2 {
   font-size: 5em;
 }
 
-.sectionDiv {
-  height: 100%;
-  width: 100%;
-}
 
 #title {
   color: var(--main-header-color);
@@ -128,10 +124,31 @@ li {
   color: var(--text-color)
 }
 
-.innerDiv {
-  margin: 0vh 45vw 0vh 10vw;
-  padding-top: 30vh;
+.innerDiv{
+  padding-top: 35vh;
 }
+
+.activeHeader{
+  position: fixed;
+  bottom: 35%;
+  right: 5%;
+}
+
+.sectionHeader{
+  display:inline;
+  float: right;
+  padding-right: 10vw;
+  border-left: 1vh solid green;
+  padding-left: 3vh;
+}
+
+.sectionText{
+  float: left;
+  width: 35%;
+  padding-left: 8vw;
+  padding-top: 8vh;
+}
+
 
 a {
   text-decoration: underline 0.15em rgba(157, 77, 77, 0);
