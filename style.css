@@ -139,8 +139,8 @@ but also only be in left side.
 .sectionHeader{
   position: absolute;
   right: 10vw;
-  top: 40vh;
-  border-left: 1vh solid green;
+  top: 35vh;
+  border-left: 1vh solid rgb(195, 255, 0);
   padding-left: 3vh;
 }
 .activeHeader{
@@ -148,7 +148,7 @@ but also only be in left side.
 }
 
 .sectionText{
-  padding: 10vh 60vw 50vh 5vw;
+  padding: 7vh 60vw 50vh 5vw;
 }
 
 
