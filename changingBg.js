@@ -19,13 +19,15 @@ setInterval(changeImg, 10000);
 // probably stop process after they scroll off. less slow maybe? 
 
 var prevScrollpos = window.scrollY;
+navBar =  document.getElementById("navBarDiv")
+navBar.style.maxHeight = navBar.scrollHeight + "px";
 
 window.onscroll = function () {
   var currentScrollPos = window.scrollY;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navBarDiv").style.top = "0";
+    navBar.style.maxHeight = navBar.scrollHeight + "px";
   } else {
-    document.getElementById("navBarDiv").style.top = "-20vh";
+    navBar.style.maxHeight = null;
   }
   prevScrollpos = currentScrollPos;
 }
