@@ -1,10 +1,10 @@
 questions = document.getElementsByClassName("questionHeader")
 
+
 for(i = 0; i< questions.length;i++){
     questions[i].addEventListener("click",() =>{
-        this.innerHTML = "hi";
 
-        var panel = this.nextElementSibling; 
+        panel = this.nextElementSibling; 
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
           } else {
