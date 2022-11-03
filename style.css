@@ -45,7 +45,6 @@ body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
   height: 100%;
-  padding-bottom: 20vh;
 }
 
 
@@ -89,6 +88,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 3;
+  background-color: var(--secondary-color);
 }
 
 ul {
@@ -130,7 +130,6 @@ a {
 
 .innerDiv {
   position: relative;
-  column-gap: 2vh;
 }
 
 
@@ -147,11 +146,12 @@ a {
 }
 
 .aboutText{
-  height: 100vh;
+  height: 60vh;
   margin: 30% 0;
 }
+
 .sectionText {
-  padding: 0vh 60vw 0vh 15vw;
+  padding: 0vh 50vw 0vh 10vw;
 }
 
 #faqInnerDiv{
