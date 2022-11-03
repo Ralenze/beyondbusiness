@@ -88,8 +88,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  border-style: solid;
-  border-color: #0000001d;
+  z-index: 3;
 }
 
 ul {
@@ -129,10 +128,9 @@ a {
 }
 
 
-
 .innerDiv {
   position: relative;
-  padding-top: 35vh;
+  column-gap: 2vh;
 }
 
 
@@ -148,8 +146,12 @@ a {
   position: fixed;
 }
 
+.aboutText{
+  height: 100vh;
+  margin: 30% 0;
+}
 .sectionText {
-  padding: 7vh 60vw 0vh 15vw;
+  padding: 0vh 60vw 0vh 15vw;
 }
 
 #faqInnerDiv{
