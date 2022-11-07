@@ -1,10 +1,15 @@
 questions = document.getElementsByClassName("questionHeader")
-
+console.log(questions[0].nextElementSibling);
 
 for(i = 0; i< questions.length;i++){
-    questions[i].addEventListener("click",() =>{
+  questions[i].i = i;
+    questions[i].addEventListener("click", function(e) {
+        console.log(e.target);
 
-        panel = this.nextElementSibling; 
+
+        panel = (e.target).nextElementSibling; 
+        console.log(panel);
+ 
         // issue is panel i think... like this isn't selecting properly cus error is that 
         // .style is undefined so i think isn't selecting thing want...
         if (panel.style.maxHeight) {
@@ -14,5 +19,3 @@ for(i = 0; i< questions.length;i++){
           }
     })
 }
-
-// btw the thing isn't a button so idk if there are issues adding eventlistener to it...

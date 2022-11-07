@@ -45,6 +45,7 @@ body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
   height: 100%;
+
 }
 
 
@@ -167,13 +168,18 @@ a {
 }
 
 .questionSection{
+
   width: 50%;
 }
 
 .questionHeader::before{
   content: '+ ';
-}
 
+}
+.questionHeader {
+  cursor: pointer;
+
+}
 .hidden{
   max-height: 0;
   overflow: hidden;
