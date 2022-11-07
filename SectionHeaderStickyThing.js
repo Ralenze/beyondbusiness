@@ -6,7 +6,7 @@ const endY = text[text.length-1].offsetTop + text[text.length-1].offsetHeight
 // figure out better way decide when tf start and end...
 // also animations or smth? idfl...
 function onScroll(){
-    if(window.scrollY > startY  && window.scrollY <= endY + 560){
+    if(window.scrollY > startY  + 300 && window.scrollY <= endY){
         aboutHeader.classList.add("activeHeader");
     }else{
         aboutHeader.classList.remove("activeHeader");

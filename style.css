@@ -137,13 +137,14 @@ a {
 #aboutHeader{
   position: absolute;
   right: 10vw;
-  top: 35vh;
   border-left: 1vh solid rgb(195, 255, 0);
   padding-left: 3vh;
 }
 
 #aboutHeader.activeHeader {
   position: fixed;
+  top: 40vh;
+  
 }
 
 .aboutText{
