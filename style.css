@@ -144,12 +144,17 @@ a {
 #aboutHeader.activeHeader {
   position: fixed;
   top: 40vh;
-  
 }
+
+#aboutHeader.endHeader{
+  position: absolute;
+  bottom: 22vw;
+}
+/*need better way to choose end position maybe js...? */
 
 .aboutText{
   height: 60vh;
-  margin: 30% 0;
+  margin: 30vh 0;
 }
 
 .sectionText {
