@@ -4,7 +4,7 @@ const clientHeight = document.documentElement.clientHeight;
 const startY = aboutHeader.offsetParent.offsetTop + aboutHeader.offsetTop + aboutHeader.offsetHeight - 0.6* clientHeight;
 
 
-const endY = text[text.length-1].offsetParent.offsetTop+ text[text.length-1].offsetTop -0.4 * clientHeight;
+const endY = text[text.length-1].offsetParent.offsetTop+ text[text.length-1].offsetTop -0.35 * clientHeight;
 // figure out how to this better..
 
 

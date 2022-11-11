@@ -45,7 +45,6 @@ body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
   height: 100%;
-
 }
 
 
@@ -148,7 +147,7 @@ a {
 
 #aboutHeader.endHeader{
   position: absolute;
-  bottom: 22vw;
+  bottom: 35vh;
 }
 /*need better way to choose end position maybe js...? */
 
@@ -191,6 +190,8 @@ a {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+
 
 
 a {
