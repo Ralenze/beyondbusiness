@@ -72,11 +72,6 @@ function onScroll(){
 etc then we switch img 
 else if it is less than our no change area (like the part where we dont change img-we have 3 of these and each of them is roughly range/3
 idk if this make sense but like the area where we no change) then we switch- code works i think u can check.
-
-
-ALSO i notice that the second image may not get enough time like its range is small compared to the other ones so if you
-want to edit it then edit and change the region of selectedImg * startToEndRange/3 part like you could add a constant or do like 2/5 instead of 1/3
-ur choice
     */
     if(window.scrollY >= (initInner + selectedImg * startToEndRange/3) && selectedImg != selectedImg + 1 && selectedImg <3) {
         selectedImg++;

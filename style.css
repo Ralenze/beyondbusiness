@@ -155,7 +155,6 @@ a {
   height: 36vh; /* img ratio is 9:16... i think thats what most img ratios are..? */
   width: 64vh;
   border-radius: 15%;
-  transition: 0.2s;
 }
 /*need better way to choose end position maybe js...? */
 .aboutText-header {
