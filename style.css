@@ -26,7 +26,7 @@ body {
   margin: 0;
   overflow-wrap: normal;
 }
-
+.tester{position: absolute; height: 315px; width: 5%; background-color: red;}
 .wrapper {
   display: inline-flex;
   flex-direction: column;
@@ -54,6 +54,7 @@ body {
   position: absolute;
   left: 5%;
   top: 70%;
+  font-family: 'Mulish';
 }
 
 #titleArea {
@@ -135,29 +136,47 @@ a {
 
 #aboutHeader{
   position: absolute;
-  right: 10vw;
+  right: 8vw;
   border-left: 1vh solid rgb(195, 255, 0);
   padding-left: 3vh;
+
 }
 
 #aboutHeader.activeHeader {
   position: fixed;
-  top: 40vh;
+
 }
 
 #aboutHeader.endHeader{
   position: absolute;
-  bottom: 35vh;
+
+}
+.slidingimg {
+  height: 36vh; /* img ratio is 9:16... i think thats what most img ratios are..? */
+  width: 64vh;
+  border-radius: 15%;
 }
 /*need better way to choose end position maybe js...? */
+.aboutText-header {
 
-.aboutText{
-  height: 60vh;
-  margin: 30vh 0;
+padding: 5vh 50vw 0vh 10vw;
+font-family: 'Mulish';
+font-size: 30px;
+position: relative;
+left: 5%;
+
 }
+.aboutText{
+  height: 40vh;
+  margin: 6vh 0;
+  font-family: 'Fira Sans';
+}
+
+
 
 .sectionText {
   padding: 0vh 50vw 0vh 10vw;
+
 }
 
 #faqInnerDiv{
