@@ -5,6 +5,7 @@
   --transparent-secondary-color: #141e6184;
   --main-header-color: #666982;
   --text-color: #EEEEEE;
+  --highlight-color: rgb(22, 167, 53);
   /* dunno how organize use what colors for what... reorganize if want 
        or we can wait, but...
        
@@ -205,14 +206,35 @@ left: 5%;
 
 .sectionText {
   padding: 0vh 50vw 0vh 10vw;
-
 }
+
+#schedulingDiv{
+  padding-bottom: 30vh;
+}
+#scheduleHeader{
+  text-align: center;
+}
+
+.scheduleItem{
+  list-style: none;
+  font-family: var(--content-font);
+  font-size: 3vh;
+  margin: 1vh 15vw;
+  padding: 3vh;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.time{
+  font-weight: bold;
+  color: var(--highlight-color);
+}
+
 
 #faqInnerDiv{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 0 15vh;
 }
 
 #faqBody{
@@ -221,7 +243,6 @@ left: 5%;
 }
 
 .questionSection{
-
   width: 50%;
 }
 
