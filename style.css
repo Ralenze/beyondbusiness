@@ -29,6 +29,18 @@ body {
 }
 
 
+
+a {
+  color: var(--text-color);
+  text-decoration: underline 0.15em rgba(157, 77, 77, 0);
+  transition: text-decoration-color 500ms, font-size 500ms;
+}
+
+a:hover {
+  text-decoration-color: red;
+  font-size: 1.2em;
+}
+
 .wrapper {
   display: inline-flex;
   flex-direction: column;
@@ -115,9 +127,7 @@ body {
   padding: 1vh 2vh;
 }
 
-a {
-  color: var(--text-color)
-}
+
 
 .fa-brands {
   float: right;
@@ -232,15 +242,6 @@ left: 5%;
 
 
 
-a {
-  text-decoration: underline 0.15em rgba(157, 77, 77, 0);
-  transition: text-decoration-color 500ms, font-size 500ms;
-}
-
-a:hover {
-  text-decoration-color: red;
-  font-size: 1.2em;
-}
 
 @keyframes slide {
   100% {
