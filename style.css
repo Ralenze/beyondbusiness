@@ -3,7 +3,7 @@
   --transparent-main--bg-color: #0F044c90;
   --secondary-color: #141E61;
   --transparent-secondary-color: #141e6184;
-  --main-header-color: #636579;
+  --main-header-color: #666982;
   --text-color: #EEEEEE;
   /* dunno how organize use what colors for what... reorganize if want 
        or we can wait, but...
@@ -14,7 +14,8 @@
        like... idk how many colors need and how organize them :/
     */
 
-  --font: ;
+  --header-font:'Mulish';
+  --content-font: 'Fira Sans';
   /* are we using more than one font...? */
 }
 
@@ -26,7 +27,8 @@ body {
   margin: 0;
   overflow-wrap: normal;
 }
-.tester{position: absolute; height: 315px; width: 5%; background-color: red;}
+
+
 .wrapper {
   display: inline-flex;
   flex-direction: column;
@@ -47,14 +49,24 @@ body {
   height: 100%;
 }
 
+#mainContent{
+  margin-top: 50vh;
+  text-align: center;
+}
 
 #title {
   color: var(--main-header-color);
-  font-size: 10vh;
-  position: absolute;
-  left: 5%;
-  top: 70%;
-  font-family: 'Mulish';
+  font-size: 5vw;
+  font-family: var(--header-font);
+}
+
+.joinButton{
+  font-family: var(--header-font);
+  font-size: 1.5rem;
+  width: 20vw;
+  height: 5vh;
+  background-color: white;
+  border:none;
 }
 
 #titleArea {
@@ -92,13 +104,13 @@ body {
   background-color: var(--secondary-color);
 }
 
-ul {
+#navBar {
   list-style-type: none;
   color: var(--text-color);
   height: 5%;
 }
 
-li {
+.navBarItems {
   display: inline;
   padding: 1vh 2vh;
 }
@@ -160,14 +172,16 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
-
 }
 /*need better way to choose end position maybe js...? */
+
+
+
+
 .aboutText-header {
 
 padding: 5vh 50vw 0vh 10vw;
-font-family: 'Mulish';
+font-family: var(--header-font);
 font-size: 30px;
 position: relative;
 left: 5%;
@@ -176,10 +190,8 @@ left: 5%;
 .aboutText{
   height: 40vh;
   margin: 6vh 0;
-  font-family: 'Fira Sans';
+  font-family: var(--content-font);
 }
-
-
 
 .sectionText {
   padding: 0vh 50vw 0vh 10vw;
