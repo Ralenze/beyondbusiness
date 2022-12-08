@@ -28,6 +28,7 @@ body {
   margin: 0;
   overflow-wrap: normal;
   color: var(--text-color);
+  font-size: 1.2rem;
 }
 
 
@@ -37,7 +38,7 @@ body {
 }
 
 .sectionHeader{
-  font-size: 3em;
+  font-size: 2.2em;
   margin: 2vh;
 }
 
@@ -114,7 +115,7 @@ body {
 }
 
 .navBarItems {
-  font-size: 1.2em;
+  font-size: 1.1rem;
   display: inline;
   padding: 1vh 2vh;
   color: var(--text-color);
@@ -145,6 +146,7 @@ body {
 
 
 .innerDiv {
+  padding-top: 30vh;
   position: relative;
 }
 
@@ -180,17 +182,17 @@ body {
 
 
 .aboutText-header {
-padding: 5vh 50vw 0vh 10vw;
-font-family: var(--header-font);
-font-size: 30px;
-position: relative;
-left: 5%;
+  padding: 17vh 50vw 0vh 10vw;
+  font-family: var(--header-font);
+  font-size: 30px;
+  position: relative;
+  left: 5%;
 
 }
 .aboutText{
   height: 40vh;
-  margin: 6vh 0;
   font-family: var(--content-font);
+
 }
 
 .sectionText {

@@ -11,7 +11,7 @@ const endY = text[text.length-1].offsetParent.offsetTop+ text[text.length-1].off
 let a = aboutHeader.offsetParent.offsetTop + aboutHeader.offsetTop;
 let applyTopToSticky = true;
 const imageheight = document.getElementById('titleArea').offsetHeight;
-console.log(imageheight + 'wuuw');
+
 const initial = aboutHeader.offsetTop;
 const initInner = aboutHeader.offsetParent.offsetTop;
 const b = (document.getElementsByClassName('sectionDiv'))[0]
