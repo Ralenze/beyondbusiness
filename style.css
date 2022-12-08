@@ -27,20 +27,9 @@ body {
   height: 100%;
   margin: 0;
   overflow-wrap: normal;
-}
-
-
-
-a {
   color: var(--text-color);
-  text-decoration: underline 0.15em rgba(157, 77, 77, 0);
-  transition: text-decoration-color 500ms, font-size 500ms;
 }
 
-a:hover {
-  text-decoration-color: red;
-  font-size: 1.2em;
-}
 
 .wrapper {
   display: inline-flex;
@@ -117,6 +106,7 @@ a:hover {
   background-color: var(--secondary-color);
 }
 
+
 #navBar {
   list-style-type: none;
   color: var(--text-color);
@@ -124,11 +114,13 @@ a:hover {
 }
 
 .navBarItems {
+  font-size: 1.2em;
   display: inline;
   padding: 1vh 2vh;
+  color: var(--text-color);
+  text-decoration: underline 0.15em rgba(157, 77, 77, 0);
+  transition: text-decoration-color 500ms, font-size 500ms;
 }
-
-
 
 .fa-brands {
   float: right;
@@ -187,10 +179,7 @@ a:hover {
 /*need better way to choose end position maybe js...? */
 
 
-
-
 .aboutText-header {
-
 padding: 5vh 50vw 0vh 10vw;
 font-family: var(--header-font);
 font-size: 30px;
