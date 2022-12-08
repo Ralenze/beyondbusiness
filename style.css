@@ -3,7 +3,7 @@
   --transparent-main--bg-color: #0F044c90;
   --secondary-color: #141E61;
   --transparent-secondary-color: #141e6184;
-  --main-header-color: #666982;
+  --main-header-color: #ecedf7;
   --text-color: #EEEEEE;
   --highlight-color: rgb(22, 167, 53);
   /* dunno how organize use what colors for what... reorganize if want 
@@ -222,20 +222,18 @@ body {
 }
 
 
-#faqInnerDiv{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 #faqBody{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-.questionSection{
-  width: 50%;
+#faqDivider{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%
 }
+
 
 .questionHeader::before{
   content: '+ ';
