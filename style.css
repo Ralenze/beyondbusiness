@@ -137,19 +137,14 @@ body {
 }
 
 .type {
-  display: inline-block;
-  vertical-align: bottom;
-}
-
-.type>span {
   color: #14f3db;
-  display: grid;
   overflow: hidden;
   height: 1.2em;
   animation-name: slide;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
+
 
 
 .innerDiv {
