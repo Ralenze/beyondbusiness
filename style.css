@@ -255,10 +255,16 @@ body {
   font-size: 0.8em;
 
 }
+
+.answer{
+  font-size: 0.75em;
+  padding-left: 1.1vw;
+  transition: max-height 1s ease-out;
+  overflow: hidden;
+}
+
 .hidden{
   max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
 }
 
 #footer{
