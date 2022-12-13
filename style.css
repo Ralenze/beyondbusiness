@@ -19,6 +19,9 @@
   --content-font: 'Fira Sans';
   /* are we using more than one font...? */
 }
+:-webkit-any-link {
+  color: inherit;
+}
 
 html,
 body {
@@ -115,7 +118,6 @@ body {
 
 #navBar {
   list-style-type: none;
-  color: var(--text-color);
   height: 5%;
 }
 
@@ -193,6 +195,7 @@ body {
 
 .aboutText{
   height: 40vh;
+  padding-bottom: 30vh;
   font-family: var(--content-font);
 }
 
@@ -230,13 +233,13 @@ body {
   flex-direction: row;
 }
 
-#faqDivider{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 40%
+.faqDivider{
+  max-width: 40vw;
 }
 
+#leftFAQ{
+  padding-right: 5vw;
+}
 
 
 .questionHeader::before{
@@ -253,8 +256,6 @@ body {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-
-
 
 
 
