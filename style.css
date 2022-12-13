@@ -201,23 +201,30 @@ body {
 
 
 #schedulingDiv{
+  display: flex;
   padding-bottom: 30vh;
+  justify-content: space-around;
 }
+
 #scheduleHeader{
   text-align: center;
+}
+
+#scheduleAreaImg{
+  align-self: center;
 }
 
 .scheduleItem{
   list-style: none;
   font-family: var(--content-font);
-  font-size: 3vh;
-  margin: 1vh 15vw;
-  padding: 3vh;
+  font-size: 2.7vh;
+  padding: 2.5vh 15vw 2vh 0;
   border-bottom: solid;
   border-width: 1px;
 }
 
 .time{
+  padding-left: 1vw;
   font-weight: bold;
   color: var(--highlight-color);
 }
