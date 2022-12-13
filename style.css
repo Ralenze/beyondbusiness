@@ -258,8 +258,9 @@ body {
 
 .answer{
   font-size: 0.75em;
+  max-height: 8vh;
   padding-left: 1.1vw;
-  transition: max-height 1s ease-out;
+  transition: max-height 0.2s ease-out;
   overflow: hidden;
 }
 
