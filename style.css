@@ -39,11 +39,10 @@ body {
 
 .sectionHeader{
   font-size: 2.2em;
-  margin: 2vh;
 }
 
-#titleArea {
-  height: 100vh;
+.sectionText {
+  padding: 0vh 50vw 0vh 10vw;
 }
 
 .sectionDiv {
@@ -51,6 +50,12 @@ body {
   color: var(--text-color);
   height: 100%;
 }
+
+
+#titleArea {
+  height: 100vh;
+}
+
 
 #mainContent{
   margin-top: 50vh;
@@ -154,7 +159,6 @@ body {
 #aboutHeader{
   position: absolute;
   right: 8vw;
-  border-left: 1vh solid rgb(195, 255, 0);
   padding-left: 3vh;
 
 }
@@ -185,19 +189,13 @@ body {
   padding: 17vh 50vw 0vh 10vw;
   font-family: var(--header-font);
   font-size: 30px;
-  position: relative;
-  left: 5%;
-
 }
+
 .aboutText{
   height: 40vh;
   font-family: var(--content-font);
-
 }
 
-.sectionText {
-  padding: 0vh 50vw 0vh 10vw;
-}
 
 #schedulingDiv{
   padding-bottom: 30vh;
