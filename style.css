@@ -75,12 +75,14 @@ body {
 }
 
 .joinButton{
+  cursor:pointer;
+  border-radius: 15px;
   font-family: var(--header-font);
-  font-size: 1.5rem;
+  font-size: 1rem;
+  color: white;
   width: 20vw;
   height: 5vh;
-  background-color: white;
-  border:none;
+  background-color: var(--transparent-secondary-color);
 }
 
 #titleArea {
@@ -203,7 +205,7 @@ body {
 
 #schedulingDiv{
   display: flex;
-  padding: 0 5vw 30vh 10vw;
+  padding: 0 10vw 30vh 10vw;
   justify-content: space-around;
 }
 
@@ -219,7 +221,7 @@ body {
   list-style: none;
   font-family: var(--content-font);
   font-size: 2.7vh;
-  padding: 2.5vh 13vw 2vh 0;
+  padding: 2.5vh 7vw 2vh 0;
   border-bottom: solid;
   border-width: 1px;
 }
