@@ -278,6 +278,8 @@ body {
   background-color: var(--secondary-color);
   font-size: 0.5em;
   height: 12vh;
+  align-items: center;
+  display: flex;
 }
 
 
