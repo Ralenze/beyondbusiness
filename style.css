@@ -222,6 +222,11 @@ body {
 }
 
 
+#faqDiv{
+  padding: 0 15vw 60vh 15vw;
+  font-size: rem;
+}
+
 #faqBody{
   display: flex;
   flex-direction: row;
@@ -231,8 +236,9 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 50%
+  width: 40%
 }
+
 
 
 .questionHeader::before{
@@ -240,7 +246,8 @@ body {
 
 }
 .questionHeader {
-  cursor: pointer;
+  cursor: pointer; 
+  font-size: 0.8em;
 
 }
 .hidden{
