@@ -36,8 +36,6 @@ body {
   font-size: 1.2rem;
 }
 
-
-
 .wrapper {
   display: inline-flex;
   flex-direction: column;
@@ -277,9 +275,14 @@ body {
 #footer{
   background-color: var(--secondary-color);
   font-size: 0.5em;
-  height: 12vh;
+  height: 15vh;
   align-items: center;
   display: flex;
+  
+}
+ul{
+  list-style: none;
+
 }
 
 
