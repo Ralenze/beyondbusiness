@@ -12,26 +12,18 @@
   <div class="wrapper">
     <!-- naming convention not great.... switch stuff for me- thanks :D -->
     <div id="titleArea">
-      <!-- so... potentially laoding everything at once and just changing opacity
-        to get new one instead of unloading and reloading an image maybe faster...? 
-        also, i was having issues doing background-image manipulation-
-        
-        reason have hidden thing is that i need images to not start in existence or they'll be in front... 
-      -->
       <img class="bgImg  active " src="images/titleImg0.jpg">
       <img class="bgImg  hidden" src="images/titleImg1.jpg">
-      <img class="bgImg  hidden" src="images/titleImg2.png">
-      <!--note this is a png... when get new image make sure change-->
       <img class="bgImg  hidden" src="images/titleImg3.jpg">
       
       <div id = "mainContent">
         <h1 id="title">Unleash your 
           <span class="type">
-            <span>Talent</span>
+            Talent
           </span>
         </h1>
         
-        
+    
         <button id = 'mainJoinButton' class = 'joinButton'><a href = "">Join</a></button>
       </div>
       
@@ -58,186 +50,151 @@
       <div id=aboutDiv class="sectionDiv">
         <div class="innerDiv">
           <!--... idk know man-->
-          <h2 id="aboutHeader" class="sectionHeader ">
-            <div id='transition' class='slidingimg'>
-            </h2>
-            <h2 class="aboutText-header">
-              Showcase your Talent
-            </h2>
-            <p class="aboutText sectionText">Beyond Business is an annually-held case competition for high school students, 
-              by high school students. Beyond Business serves as a platform for aspiring entrepreneurs to improve their 
-              problem solving skills by solving real world challenges that companies face. The skills that participants 
-              develop from the competition apply beyond business.
-            </p>
-            
-            <h2 class="aboutText-header">
-              Build your Confidence
-            </h2>
-            <p class="aboutText sectionText">
-              When you go on the stage to present your solution, it's not just the solution 
-              that we look into - it's the way you present your solution. By speaking in public,
-              you become confident.
-            </p>
-            
-            <h2 class="aboutText-header">
-              Meet Other Entrepreneurs
-            </h2>
-            <p class="aboutText sectionText">
-              Case Competitions arent only about creating solutions and winning prizers - they
-              are about meeting other like-minded entrepreneurs as well! Beyond Business
-              offers an exclusive opportunity to network with other leaders.
-            </p>
-            
-          </div>
+          <h2 id="aboutHeader" class="sectionHeader">
+            <div id='transition' class='slidingimg'></div>
+          </h2>
+          
+          <h2 class="aboutText-header">
+            Showcase your Talent
+          </h2>
+          <p class="aboutText sectionText">Beyond Business is an annually-held case competition for high school students, 
+            by high school students. Beyond Business serves as a platform for aspiring entrepreneurs to improve their 
+            problem solving skills by solving real world challenges that companies face. The skills that participants 
+            develop from the competition apply beyond business.
+          </p>
+          
+          <h2 class="aboutText-header">
+            Build your Confidence
+          </h2>
+          <p class="aboutText sectionText">
+            When you go on the stage to present your solution, it's not just the solution 
+            that we look into - it's the way you present your solution. By speaking in public,
+            you become confident.
+          </p>
+          
+          <h2 class="aboutText-header">
+            Meet Other Entrepreneurs
+          </h2>
+          <p class="aboutText sectionText">
+            Case Competitions arent only about creating solutions and winning prizers - they
+            are about meeting other like-minded entrepreneurs as well! Beyond Business
+            offers an exclusive opportunity to network with other leaders.
+          </p>
+          
         </div>
+      </div>
+      
+      <div id="schedulingDiv" class="sectionDiv">
         
-        <div id="schedulingDiv" class="sectionDiv">
+        <img id = scheduleAreaImg src = "images/titleImg2.png" height="400px"/>
+        
+        <div id = schedulingContent>
           
-          <img id = scheduleAreaImg src = "images/titleImg2.png" height="400px"/>
-          
-          <div id = schedulingContent>
-
-            <h1 id = "scheduleHeader" class = "sectionHeader">Schedule</h1>
-            <ul>
-              <li class = 'scheduleItem'><span class = 'time'>08:30 -</span> Check In</li>
-              <li class = 'scheduleItem'><span class = 'time'>09:00 -</span> Case Comp Begins !!!</li>
-              <li class = 'scheduleItem'><span class = 'time'>09:30 -</span> Prep Time</li>
-              <li class = 'scheduleItem'><span class = 'time'>12:30 -</span> LUNCH</li>
-              <li class = 'scheduleItem'><span class = 'time'>01:15 -</span> Presenting Time DDDDD:</li>
-              <li class = 'scheduleItem'><span class = 'time'>02:30 -</span> Break </li>
-              <li class = 'scheduleItem'><span class = 'time'>02:50 -</span> Second Round of Presentations</li>
-              <li class = 'scheduleItem'><span class = 'time'>04:00 -</span> Judge Discussion Time</li>
-              <li class = 'scheduleItem'><span class = 'time'>04:30 -</span> AWARDS >~< </li>
-              <li class = 'scheduleItem'><span class = 'time'>05:00 -</span> we're done ;---;</li>
-            </ul>
-          </div>
+          <h1 id = "scheduleHeader" class = "sectionHeader">Schedule</h1>
+          <ul>
+            <li class = 'scheduleItem'><span class = 'time'>08:30 -</span> Check In</li>
+            <li class = 'scheduleItem'><span class = 'time'>09:00 -</span> Case Comp Begins !!!</li>
+            <li class = 'scheduleItem'><span class = 'time'>09:30 -</span> Prep Time</li>
+            <li class = 'scheduleItem'><span class = 'time'>12:30 -</span> LUNCH</li>
+            <li class = 'scheduleItem'><span class = 'time'>01:15 -</span> Presenting Time DDDDD:</li>
+            <li class = 'scheduleItem'><span class = 'time'>02:30 -</span> Break </li>
+            <li class = 'scheduleItem'><span class = 'time'>02:50 -</span> Second Round of Presentations</li>
+            <li class = 'scheduleItem'><span class = 'time'>04:00 -</span> Judge Discussion Time</li>
+            <li class = 'scheduleItem'><span class = 'time'>04:30 -</span> AWARDS >~< </li>
+            <li class = 'scheduleItem'><span class = 'time'>05:00 -</span> we're done ;---;</li>
+          </ul>
         </div>
-        <div id="faqDiv" class="sectionDiv">
-          <h2 id="faqHeader" class="sectionHeader">Frequently asked Questions</h2>
-          
-          <div id = faqBody>
-            <div id = 'leftFAQ' class = "faqDivider">
-              <div id="q1Section" class="questionSection">
-                <h3 id="q1Header" class="questionHeader">
-                  What is a case competition?
-                </h3>
-                <p id="answer1" class="answer hidden">
-                  fuck if i know man... 
-                </p>
-              </div>
-              
-              <div id="q2Section" class="questionSection">
-                <h3 id="q2Header" class="questionHeader">
-                  how do you prep for a case comp?
-                </h3>
-                <p id="answer2" class="answer hidden">
-                  again, fuck if i know man.... do yoga? 
-                </p>
-              </div>
-              
-              <div id="q3Section" class="questionSection">
-                <h3 id="q3Header" class="questionHeader">
-                  who is the smartest, prettiest, most humble of them all
-                </h3>
-                <p id="answer3" class="answer hidden">
-                  *blushes 'uwu'ly* the man, the myth, the guy who doesn't know what he's doing man... fuck... i don't wanna do comp sci anymore.... too many people are going into it and like... ther 1re 15 year olds that can fucking do third year uni shit... get me out.... i wanna be a baker... fuuuuck... no i just wanna be happy.... god, if you exist, why did you make us this way? just to suffer? ;----; that's kinda messed up ngl... kinda messed up. bit of an 'L' move as Ethan enns would say... 
-                </p>
-              </div>
+      </div>
+      
+      <div id="faqDiv" class="sectionDiv">
+        <h2 id="faqHeader" class="sectionHeader">Frequently asked Questions</h2>
+        
+        <div id = faqBody>
+          <div id = 'leftFAQ' class = "faqDivider">
+            <div id="q1Section" class="questionSection">
+              <h3 id="q1Header" class="questionHeader">
+                What is a case competition?
+              </h3>
+              <p id="answer1" class="answer hidden">
+                fuck if i know man... 
+              </p>
             </div>
             
-            <div id = rightFAQ class = "faqDivider">
-              <div id="q4Section" class="questionSection">
-                <h3 id="q4Header" class="questionHeader">
-                  What is your favorite food
-                </h3>
-                <p id="answer4" class="answer hidden">
-                  Great Question! if we'd had to choose, it would be rice with soy sauce
-                  and a fried egg. some katsuobushi would be nice too.
-                </p>
-              </div>
-              
-              <div id="q5Section" class="questionSection">
-                <h3 id="q5Header" class="questionHeader">
-                  What is your favorite food
-                </h3>
-                <p id="answer5" class="answer hidden">
-                  Great Question! if we'd had to choose, it would be rice with soy sauce
-                  and a fried egg. some katsuobushi would be nice too.
-                </p>
-              </div>
-              
-              <div id="q6Section" class="questionSection">
-                <h3 id="q6Header" class="questionHeader">
-                  What is your favorite food
-                </h3>
-                <p id="answer6" class="answer hidden">
-                  Great Question! if we'd had to choose, it would be rice with soy sauce
-                  and a fried egg. some katsuobushi would be nice too.
-                </p>
-              </div>
-              
+            <div id="q2Section" class="questionSection">
+              <h3 id="q2Header" class="questionHeader">
+                how do you prep for a case comp?
+              </h3>
+              <p id="answer2" class="answer hidden">
+                again, fuck if i know man.... do yoga? 
+              </p>
             </div>
-          </div>
-        </div>
-        
-
-        <div id="sponserArea">
-          
-          
-        </div>
-        
-        <div id="teamDiv" class="sectionDiv">
-          <h1>the team....>? idk about this part... maybe only need small section for not a lot- we'll see...</h1>
-          <div id="person1" class="personDiv">
-            <img src="" id="person1Img" class="personImg" alt="picture of person1">
-            <h3 id="person1Header" class="personHeader"> Jason Qiu, the benevolent one, the great and terrible, the
-              enlightened, he with more titles than there are stars, the yasqueenslayestqueen, the morningstar, the
-              wise,
-              the patient, the cute guy, the destroyer of worlds, the eater of noodles, the eater of rice, the eater of
-              tiramisu, the kinda craving food like anything... hoenstly i could go for some fruit. fruit is dope.
-              anways...
-              , the gifter of fire, the bringer of life, the forsaken one, the oldest, the star dragon thing, the
-              enslish
-              speaking thing, the guy running out of things to say...</h3>
-              <p id="person1Text" class="personText">A BENEVOLENT GOD TO ALLOW YOU MORTALS A GLIMPSE OF HIS FORM. KNOW
-                THAT
-                YOU'VE BEEN GRACED WITH PRESENCE YOU DID NOT DESERVE AND BE GRATEFUL PEONS</p>
-              </div>
-              
-              <div id="person2" class="personDiv">
-                <img src="" id="person2Img" class="personImg" alt="picture of person2">
-                <h3 id="person2Header" class="personHeader"> PERSON</h3>
-                <p id="person2Text" class="personText">some info about this person</p>
-              </div>
-              
-              <div id="person3" class="personDiv">
-                <img src="" id="person3Img" class="personImg" alt="picture of person3">
-                <h3 id="person3Header" class="personHeader"> PERSON</h3>
-                <p id="person3Text" class="personText">some info about this person</p>
-              </div>
-              
-              <div id="person4" class="personDiv">
-                <img src="" id="person4Img" class="personImg" alt="picture of person4">
-                <h3 id="person4Header" class="personHeader"> PERSON</h3>
-                <p id="person4Text" class="personText">some info about this person</p>
-              </div>
-              
-              <div id="person5" class="personDiv">
-                <img src="" id="person1Img" class="personImg" alt="picture of person1">
-                <h3 id="person1Header" class="personHeader"> PERSON</h3>
-                <p id="person1Text" class="personText">some info about this person</p>
-              </div>
-              
-              <div id="person6" class="personDiv">
-                
-              </div>
-              
+            
+            <div id="q3Section" class="questionSection">
+              <h3 id="q3Header" class="questionHeader">
+                who is the smartest, prettiest, most humble of them all
+              </h3>
+              <p id="answer3" class="answer hidden">
+                *blushes 'uwu'ly* the man, the myth, the guy who doesn't know what he's doing man... fuck... i don't wanna do comp sci anymore.... too many people are going into it and like... ther 1re 15 year olds that can fucking do third year uni shit... get me out.... i wanna be a baker... fuuuuck... no i just wanna be happy.... god, if you exist, why did you make us this way? just to suffer? ;----; that's kinda messed up ngl... kinda messed up. bit of an 'L' move as Ethan enns would say... 
+              </p>
             </div>
           </div>
           
-          <script src="changingBg.js"></script>
-          <script src="SectionHeaderStickyThing.js"></script>
-          <script src="hideAnswers.js"></script>
-        </body>
+          <div id = rightFAQ class = "faqDivider">
+            <div id="q4Section" class="questionSection">
+              <h3 id="q4Header" class="questionHeader">
+                What is your favorite food
+              </h3>
+              <p id="answer4" class="answer hidden">
+                Great Question! if we'd had to choose, it would be rice with soy sauce
+                and a fried egg. some katsuobushi would be nice too.
+              </p>
+            </div>
+            
+            <div id="q5Section" class="questionSection">
+              <h3 id="q5Header" class="questionHeader">
+                What is your favorite food
+              </h3>
+              <p id="answer5" class="answer hidden">
+                Great Question! if we'd had to choose, it would be rice with soy sauce
+                and a fried egg. some katsuobushi would be nice too.
+              </p>
+            </div>
+            
+            <div id="q6Section" class="questionSection">
+              <h3 id="q6Header" class="questionHeader">
+                What is your favorite food
+              </h3>
+              <p id="answer6" class="answer hidden">
+                Great Question! if we'd had to choose, it would be rice with soy sauce
+                and a fried egg. some katsuobushi would be nice too.
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+      <div id="sponserArea">
         
-        </html>
+        
+      </div>
+      
+      
+      
+      <div id = "footer">
+        <p>Contact us here if you have any questions</p>
+        <ul>
+          Email: ___________-
+        </ul>
+      </div>
+      
+      
+  </div>
+    
+    <script src="changingBg.js"></script>
+    <script src="SectionHeaderStickyThing.js"></script>
+    <script src="hideAnswers.js"></script>
+</body>
+  
+</html>
